@@ -1,0 +1,110 @@
+@import "../node_modules/react-image-gallery/styles/css/image-gallery.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+font-family: var(--font-family);
+background-color: #242226;
+color: rgb(255, 255, 255);
+}
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.span{
+    color: rgb(255, 255, 255);
+    font-size: large;
+    font-weight: bolder;
+}
+.span2{
+    font-size: large;
+    font-weight: 200;
+    color: rgb(255, 255, 255);
+}
+
+.span3{
+    color: yellow;
+    margin-left: 2px;
+    margin-top: -2px;
+}
+.img{
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+.slideimg{
+    border-radius: 1rem;
+    width: 500px;
+    position: relative;
+}
+.swiper-slide{display: flex;
+justify-content: center;
+align-items: center;
+}
+.grid-item {
+    text-align: center;
+    width: 375px;
+    padding: 10px;
+    display: block;
+    color: aliceblue;
+
+  }
+  .container{
+    margin: 0 auto;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns:400px 400px auto;
+    grid-template-rows: 180px 180px 180px;
+    gap: 40px;
+  }
+  /* .grid-item:hover {
+    filter: blur(2px);
+} */
+.line{
+    width: 600px;
+    color: rgb(18, 17, 17);
+}
+.spangarne{
+    color: rgb(121, 117, 117);
+}
+.h6{
+    cursor: pointer;
+}
+.text{
+    font-size: 16px;
+}
+.colline{
+    rotate: 90deg;
+    width: 20px;
+}
+.line3{
+    width: 800px;
+    color: rgb(78, 77, 74);
+}
+.most{
+    cursor: pointer;
+}
+.most:hover{
+  filter: brightness(1);
+}
+.footerhr{
+    color: #3c3b40;
+}
+.images{
+    border-radius: 12px 12px 0px 0px;
+}
+.im{
+    color: black;
+    background-color: rgb(255, 242, 0);
+    width: 100px;
+}
+.pagi{
+    color: white;
+    border-radius: 15px;
+}
